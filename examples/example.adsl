@@ -1,0 +1,25 @@
+// Groups
+@year2021[2021]
+@employee
+@vehicles
+
+#person @employee
+    - name="Alice", @hr
+    - age=30
+    - isActive=true
+    - skills=["C++","ASM"] @tech
+
+#person
+    - name="Bob"
+    - age=22
+    - isActive=false @intern
+
+#car @vehicles
+    - brand="Volvo"
+    - datePurchase=2021 @year2021
+    - price=42000.5
+
+#truck @vehicles
+    - brand="Mercedes"
+    - datePurchase=2021 @year2021
+    - capacity=12.5
