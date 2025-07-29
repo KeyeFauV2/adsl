@@ -6,6 +6,31 @@
 #include <functional>
 
 namespace adsl {
+/*
+*                                                              
+*                              dddddddd                         
+?                              d::::::d                 lllllll 
+*                              d::::::d                 l:::::l 
+!                             d::::::d                 l:::::l 
+*                              d:::::d                  l:::::l 
+?   aaaaaaaaaaaaa      ddddddddd:::::d     ssssssssss    l::::l 
+*   a::::::::::::a   dd::::::::::::::d   ss::::::::::s   l::::l 
+!   aaaaaaaaa:::::a d::::::::::::::::d ss:::::::::::::s  l::::l 
+*            a::::ad:::::::ddddd:::::d s::::::ssss:::::s l::::l  
+?     aaaaaaa:::::ad::::::d    d:::::d  s:::::s  ssssss  l::::l  
+*   aa::::::::::::ad:::::d     d:::::d    s::::::s       l::::l 
+!  a::::aaaa::::::ad:::::d     d:::::d       s::::::s    l::::l 
+* a::::a    a:::::ad:::::d     d:::::d ssssss   s:::::s  l::::l 
+? a::::a    a:::::ad::::::ddddd::::::dds:::::ssss::::::sl::::::l
+* a:::::aaaa::::::a d:::::::::::::::::ds::::::::::::::s l::::::l
+!  a::::::::::aa:::a d:::::::::ddd::::d s:::::::::::ss  l::::::l
+*   aaaaaaaaaa  aaaa  ddddddddd   ddddd  sssssssssss    llllllll
+?                                                              
+*            ADSL API - Advanced Data Structure Language
+                (c) 2025 Keye_fau > https://github.com/KeyeFauV2/adsl/ -- Under MIT License, see LICENSE file for more details
+*
+*/
+
 
 /* ----------------------------- value helpers ----------------------------- */
 // Safe cast : returns std::optional<DesiredType> (empty if bad type)

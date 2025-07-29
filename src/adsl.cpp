@@ -217,7 +217,7 @@ AdslValueType getAdslValueType(const AdslValue& v)
         case 5:  return AdslValueType::IntList;
         case 6:  return AdslValueType::FloatList;
         case 7:  return AdslValueType::BoolList;
-        default: return AdslValueType::Unknown;
+        default: return AdslValueType::Unknown; // should never happen
     }
 }
 
